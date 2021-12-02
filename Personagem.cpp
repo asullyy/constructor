@@ -17,7 +17,7 @@ Personagem::Personagem(int idadePersonagem)
 }
 
 void Personagem::setNomePersonagem(string nomePersonagem){
-    nomePersonagem = nomePersonagem;
+    this->nomePersonagem = nomePersonagem;
 }
 
 string Personagem::getNomePersonagem(){
